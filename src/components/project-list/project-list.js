@@ -54,10 +54,10 @@ const ProjectList = () => {
     const mainItem = data.slice(0,1).map((item) => {
         return (
             <div className="item featured text-center" key={item.id}>
-                <h3 className="title"><a href={item.url} target="_blank">{item.title}</a></h3>
+                <h3 className="title"><a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a></h3>
                 <h4 className="summary">My Latest Project</h4>
                 <div className="featured-image">
-                    <a href={item.url} target="_blank">
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">
                     <img className="img-fluid project-image" src={process.env.PUBLIC_URL + `${item.imageUrl}`} alt="project name" />
                     </a>
                     <div className="ribbon">
@@ -75,13 +75,13 @@ const ProjectList = () => {
     const items = data.slice(1).map((item) => {
         return (
             <div className="item row" key={item.id}>
-                <a className="col-md-4 col-sm-4 col-xs-12" href={item.url} target="_blank">
+                <a className="col-md-4 col-sm-4 col-xs-12" href={item.url} target="_blank" rel="noopener noreferrer">
                 <img className="img-fluid project-image" src={process.env.PUBLIC_URL + `${item.imageUrl}`} alt="project name" />
                 </a>
                 <div className="desc col-md-8 col-sm-8 col-xs-12">
-                    <h3 className="title"><a href={item.url} target="_blank">{item.title}</a></h3>
+                    <h3 className="title"><a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a></h3>
                     <p>{item.description}</p>
-                    <p><a className="more-link" href={item.url} target="_blank"><i className="fa fa-external-link"></i> Find out more</a></p>
+                    <p><a className="more-link" href={item.url} target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link"></i> Find out more</a></p>
                 </div>                          
             </div>
         )

@@ -12,6 +12,7 @@ const Credits = () => {
                     <ul className="list-unstyled">
                         <li><a href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link"></i> Bootstrap</a></li>
                         <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link"></i> FontAwesome</a></li>
+                        <li><a href="https://github.com/pitchin-dev/pitchin-dev" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link"></i> My Website GitHub Repository</a></li>
                         <li>Profile image made by me.</li>
                     </ul>                
                     <hr/>                 

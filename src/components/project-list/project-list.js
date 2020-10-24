@@ -4,38 +4,46 @@ import './project-list.css';
 
 const ProjectList = () => {
 
+    let maxId = 100;
+
     const data = [
         {
+            id: maxId++,
             url: 'https://pitchin-dev.github.io/tech-design-grid-template/',
             imageUrl: 'tech-design-grid.jpg',
             title: 'Tech-design - CSS-grid template',
             description: 'You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
         },
         {
+            id: maxId++,
             url: 'https://pitchin-dev.github.io/ready-grid/',
             imageUrl: 'ready-grid.jpg',
             title: 'Ready - responsive CSS-grid template',
             description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
         },
         {
+            id: maxId++,
             url: 'https://pitchin-dev.github.io/shopy-flex/',
             imageUrl: 'shopy-flex.jpg',
             title: 'Shopy - CSS-flex template',
             description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
         },
         {
+            id: maxId++,
             url: 'https://pitchin-dev.github.io/waxom/',
             imageUrl: 'waxom-flex.jpg',
             title: 'Waxom - CSS-flex template',
             description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
         },
         {
+            id: maxId++,
             url: 'http://wpcourse.pitchin-dev.ru/',
             imageUrl: 'childhood-wp.jpg',
             title: 'Childhood - Wordpress theme',
             description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
         },
         {
+            id: maxId++,
             url: 'https://pitchin-dev.github.io/new-providence/',
             imageUrl: 'new-providence-flex.jpg',
             title: 'New Providence - CSS-flex template',
@@ -45,7 +53,7 @@ const ProjectList = () => {
 
     const mainItem = data.slice(0,1).map((item) => {
         return (
-            <div className="item featured text-center">
+            <div className="item featured text-center" key={item.id}>
                 <h3 className="title"><a href={item.url} target="_blank">{item.title}</a></h3>
                 <h4 className="summary">My Latest Project</h4>
                 <div className="featured-image">
@@ -66,7 +74,7 @@ const ProjectList = () => {
 
     const items = data.slice(1).map((item) => {
         return (
-            <div className="item row">
+            <div className="item row" key={item.id}>
                 <a className="col-md-4 col-sm-4 col-xs-12" href={item.url} target="_blank">
                 <img className="img-fluid project-image" src={process.env.PUBLIC_URL + `${item.imageUrl}`} alt="project name" />
                 </a>

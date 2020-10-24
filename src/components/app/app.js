@@ -6,6 +6,7 @@ import {ProjectList} from '../project-list';
 import {Certificates} from '../certificates';
 import {Skills} from '../skills';
 import {Languages} from '../languages';
+import {Widget} from '../widget';
 import {Credits} from '../credits';
 import {BrowserRouter as Router, Route, Link, Redirect} from 'react-router-dom';
 
@@ -27,6 +28,7 @@ const App = () => {
                         <Contacts />
                         <Skills />
                         <Languages />
+                        <Widget />
                         <Credits />
                     </div>
                 </div>

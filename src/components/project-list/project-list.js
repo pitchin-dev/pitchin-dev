@@ -12,42 +12,42 @@ const ProjectList = () => {
             url: 'https://pitchin-dev.github.io/tech-design-grid-template/',
             imageUrl: 'tech-design-grid.jpg',
             title: 'Tech-design - CSS-grid template',
-            description: 'You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+            description: 'One of my latest projects. Simple and beautiful grid template. Looks pretty modern :)'
         },
         {
             id: maxId++,
             url: 'https://pitchin-dev.github.io/ready-grid/',
             imageUrl: 'ready-grid.jpg',
             title: 'Ready - responsive CSS-grid template',
-            description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+            description: 'Just a small Adobe XD css-grid practicing template. Simple and beutiful.'
         },
         {
             id: maxId++,
             url: 'https://pitchin-dev.github.io/shopy-flex/',
             imageUrl: 'shopy-flex.jpg',
             title: 'Shopy - CSS-flex template',
-            description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+            description: 'Sports shop e-commerce flexbox template. Bright and pretty looking.'
         },
         {
             id: maxId++,
             url: 'https://pitchin-dev.github.io/waxom/',
             imageUrl: 'waxom-flex.jpg',
             title: 'Waxom - CSS-flex template',
-            description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+            description: 'Originally this is the Wordpress theme layout. Pretty good looking, beautiful color scheme.'
         },
         {
             id: maxId++,
             url: 'http://wpcourse.pitchin-dev.ru/',
             imageUrl: 'childhood-wp.jpg',
             title: 'Childhood - Wordpress theme',
-            description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+            description: 'Pretty good looking Wordpress theme with the various kind of plugins in it - forms, custom field, image optimization, SEO etc.'
         },
         {
             id: maxId++,
             url: 'https://pitchin-dev.github.io/new-providence/',
             imageUrl: 'new-providence-flex.jpg',
             title: 'New Providence - CSS-flex template',
-            description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+            description: 'Cool white PSD layout using the animations.css and wow.js libraries.'
         }
     ];
 

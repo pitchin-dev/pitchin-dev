@@ -28,7 +28,6 @@ const App = () => {
                         <Contacts />
                         <Skills />
                         <Languages />
-                        <Widget />
                         <Credits />
                     </div>
                 </div>

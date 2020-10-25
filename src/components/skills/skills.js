@@ -22,10 +22,10 @@ const Skills = () => {
                                         
                     <div className="skillset">
                         <ButtonGroup>
-                            <Button color="danger" onClick={toggleHtml} style={{ marginBottom: '1rem' }}>HTML</Button>
-                            <Button color="success" onClick={toggleCss} style={{ marginBottom: '1rem' }}>CSS</Button>
-                            <Button color="warning" onClick={toggleJs} style={{ marginBottom: '1rem' }}>JS</Button>
-                            <Button color="primary" onClick={toggleReact} style={{ marginBottom: '1rem' }}>React</Button>
+                            <Button color={isOpenHtml ? 'danger' : 'dark'} onClick={toggleHtml} style={{ marginBottom: '1rem' }}>HTML</Button>
+                            <Button color={isOpenCss ? 'success' : 'dark'} onClick={toggleCss} style={{ marginBottom: '1rem' }}>CSS</Button>
+                            <Button color={isOpenJs ? 'warning' : 'dark'} onClick={toggleJs} style={{ marginBottom: '1rem' }}>JS</Button>
+                            <Button color={isOpenReact ? 'primary' : 'dark'} onClick={toggleReact} style={{ marginBottom: '1rem' }}>React</Button>
                         </ButtonGroup>
                         
                         <Collapse isOpen={isOpenHtml}>

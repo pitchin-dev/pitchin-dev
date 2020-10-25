@@ -32,7 +32,7 @@ const Skills = () => {
                             <Card>
                                 <CardBody>
                                     <CardTitle><h3>HTML</h3></CardTitle>
-                                    <CardText>HTML5 semantic markup. PUG preprocessor.</CardText>
+                                    <CardText>HTML5 semantic markup. PUG preprocessor. Have skills in Wordpress theme making.</CardText>
                                 </CardBody>
                             </Card>
                         </Collapse>

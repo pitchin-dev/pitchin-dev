@@ -19,12 +19,12 @@ const App = () => {
             <Header />
             <div className="container sections-wrapper">
                 <div className="row">
-                    <div className="primary col-md-8 col-sm-12 col-xs-12">
+                    <div className="primary col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <About />
                         <ProjectList />
                         <Certificates />
                     </div>
-                    <div className="secondary col-md-4 col-sm-12 col-xs-12">
+                    <div className="secondary col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <Contacts />
                         <Skills />
                         <Languages />

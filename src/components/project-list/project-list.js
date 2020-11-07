@@ -9,6 +9,13 @@ const ProjectList = () => {
     const data = [
         {
             id: maxId++,
+            url: 'https://pitchin-dev.github.io/seo-company-flex/',
+            imageUrl: 'seo-flex.jpg',
+            title: 'SEO-Company Flex - CSS-flexbox template',
+            description: 'My latest project. Accurate and nice-looking adaptive flexbox template. Felt nice to develop.'
+        },
+        {
+            id: maxId++,
             url: 'https://pitchin-dev.github.io/tech-design-grid-template/',
             imageUrl: 'tech-design-grid.jpg',
             title: 'Tech-design - CSS-grid template',

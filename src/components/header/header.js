@@ -7,11 +7,11 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-2">
+                    <div className="col-md-4 col-lg-2">
                         <img className="profile-image img-responsive" src={process.env.PUBLIC_URL + 'profile.jpg'} alt="Pavel Itchin" />
                     </div>                       
                     
-                    <div className="profile-content col-md-8 px-md-5">
+                    <div className="profile-content col-md-6 col-lg-8 px-md-5">
                         <h1 className="name">Pavel Itchin</h1>
                         <h2 className="desc">Junior Frontend Developer</h2>   
                         <ul className="social list-inline">
@@ -22,8 +22,8 @@ const Header = () => {
                             <li className="list-inline-item last-item"><a href="https://github.com/pitchin-dev" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>                 
                         </ul> 
                     </div>
-                    <div className="col-md-2">
-                        <a href="https://t.me/itchin_pavel" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><i className="fa fa-paper-plane"></i>Contact Me</button></a>
+                    <div className="col-md-2 col-lg-2">
+                        <a href="https://t.me/itchin_pavel" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><i className="fa fa-paper-plane"></i>TG</button></a>
                     </div>             
                 </div>
             </div>         
